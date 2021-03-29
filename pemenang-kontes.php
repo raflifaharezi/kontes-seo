@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>Document</title>
     <link
       rel="stylesheet"
@@ -27,13 +28,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse dd-flex justify-content-center"
+        class="collapse navbar-collapse dd-flex justify-content-end"
         id="navbarNav"
       >
         <ul class="navbar-nav">
           <li class="nav-item">
             <a
-              class="nav-link text-white btn btn-danger"
+              class="nav-link text-white btn btn-success"
               href="pendaftaran-kontes.php"
               >PENDAFTARAN KONTES</a
             >
@@ -60,7 +61,7 @@
       <a href="pemenang-kontes.php" class="btn btn-success">Pemenang Kontes</a>
 
       <h3 class="text-center text-danger mt-3">
-        <strong>Pemenang akan diumumkan pada tanggal 12 Mei 2021</strong>
+        <strong>Pemenang akan diumumkan pada tanggal 26 Juni 2021</strong>
       </h3>
     </div>
 

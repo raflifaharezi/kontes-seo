@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>Document</title>
     <link
       rel="stylesheet"
@@ -28,9 +29,18 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse dd-flex justify-content-center"
+        class="collapse navbar-collapse dd-flex justify-content-end"
         id="navbarNav"
       >
+      <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link text-white btn btn-success"
+              href="pendaftaran-kontes.php"
+              >PENDAFTARAN KONTES</a
+            >
+          </li>
+        </ul>
       </div>
     </nav>
 

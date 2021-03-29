@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>Document</title>
     <link
       rel="stylesheet"
@@ -28,13 +29,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse dd-flex justify-content-center"
+        class="collapse navbar-collapse dd-flex justify-content-end"
         id="navbarNav"
       >
         <ul class="navbar-nav">
           <li class="nav-item">
             <a
-              class="nav-link text-white btn btn-danger"
+              class="nav-link text-white btn btn-success"
               href="pendaftaran-kontes.php"
               >PENDAFTARAN KONTES</a
             >
@@ -84,7 +85,7 @@
                   <tr>
                     <th scope="col">#</th>
                     <th scope="col">Nama</th>
-                    <th scope="col">Alamat</th>
+                    <th scope="col">Email</th>
                     <th scope="col">Url Website</th>
                   </tr>
                 </thead>
@@ -97,8 +98,8 @@
                       echo "<tr>";
                       echo "<td>".$user['id']."</td>";
                       echo "<td>".$user['name']."</td>";
-                      echo "<td>".$user['address']."</td>";
-                      echo "<td ><a href=".$user['url_website'].">" .$user['url_website']."</a></td>";
+                      echo "<td>".$user['email']."</td>";
+                      echo "<td >".$user['url_website']."</td>";
           
                       echo "</tr>";
                   }

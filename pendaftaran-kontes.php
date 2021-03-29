@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>Document</title>
     <link
       rel="stylesheet"
@@ -12,7 +13,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index.php">
         <img src="images/paus gudangku.png" alt="" height="45px" />
       </a>
       <button
@@ -27,13 +28,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse dd-flex justify-content-center"
+        class="collapse navbar-collapse dd-flex justify-content-end"
         id="navbarNav"
       >
         <ul class="navbar-nav">
           <li class="nav-item">
             <a
-              class="nav-link text-white btn btn-danger"
+              class="nav-link text-white btn btn-success"
               href="pendaftaran-kontes.php"
               >PENDAFTARAN KONTES</a
             >
@@ -128,7 +129,7 @@
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="www.example.com"
+                  placeholder="https://example.co.id"
                   name="url_website"
                   required
                 />
@@ -138,7 +139,7 @@
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="www.facebook.com"
+                  placeholder="https://facebook.com"
                   name="url_facebook"
                   required
                 />
@@ -148,7 +149,7 @@
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="www.instagram.com"
+                  placeholder="https://instagram.com"
                   name="url_instagram"
                   required
                 />
@@ -156,7 +157,7 @@
             </div>
 
             <footer>
-            <input type="submit" value="Daftar" name="daftar" />
+            <input type="submit" value="Daftar" name="daftar" class="btn btn-success" />
             </footer>
           </form>
         </div>

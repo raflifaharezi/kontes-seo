@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>Document</title>
     <link
       rel="stylesheet"
@@ -28,13 +29,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse dd-flex justify-content-center"
+        class="collapse navbar-collapse d-flex justify-content-end"
         id="navbarNav"
       >
         <ul class="navbar-nav">
           <li class="nav-item">
             <a
-              class="nav-link text-white btn btn-danger"
+              class="nav-link text-white btn btn-success"
               href="pendaftaran-kontes.php"
               >PENDAFTARAN KONTES</a
             >
@@ -53,9 +54,22 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="images/slider_image.png" class="w-100" />
+          <div class="carousel-caption d-none d-md-block">
+          <a href="pendaftaran-kontes.php" class="btn btn-success"
+          >DAFTAR SEGERA
+          </a>
+          <h4 class="mt-3">Menangkan Hadiahnya Sampai dengan 15 Juta Rupiah</h4>
+      
+          </div>
         </div>
         <div class="carousel-item">
           <img src="images/slider_image.png" class="w-100" />
+          <div class="carousel-caption d-none d-md-block">
+          <a href="pendaftaran-kontes.php" class="btn btn-success"
+          >DAFTAR SEGERA
+          </a>
+          <h4 class="mt-3">Menangkan Hadiahnya Sampai dengan 15 Juta Rupiah</h4>
+          </div>
         </div>
       </div>
       <a
@@ -107,6 +121,39 @@
               <div class="accordion" id="accordionExample">
                 <div class="card">
                   <div class="card">
+
+                  <!-- Start: Collapse Hadiah-->
+                  <div class="card-header bg-primary" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button
+                        class="btn text-white text-justify"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Hadiah Kontes Gudangku | Fulfillment
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div
+                    id="collapseTwo"
+                    class="collapse show"
+                    aria-labelledby="headingTwo"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p><strong>Juara 1: Uang tunai Rp 7.000.000,-</strong></p>
+                      <p><strong>Juara 2: Uang tunai Rp 3.000.000,-</strong></p>
+                      <p><strong>Juara 3: Uang tunai Rp 2.000.000,-</strong></p>
+                      <p><strong>Juara 4-5: Uang tunai Rp 1.500.000,-</strong></p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End: Collapse Hadiah-->
+
                     <!-- Collapse Informasi Pendaftaran-->
                     <div class="card-header bg-secondary" id="headingOne">
                       <h2 class="mb-0">
@@ -206,41 +253,11 @@
                   </div>
                   <!--End: Collapse Informasi Pendaftaran-->
 
-                  <!-- Start: Collapse Hadiah-->
-                  <div class="card-header bg-primary" id="headingTwo">
-                    <h2 class="mb-0">
-                      <button
-                        class="btn text-white text-justify"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo"
-                      >
-                        Hadiah Kontes Gudangku | Fulfillment
-                      </button>
-                    </h2>
-                  </div>
-
-                  <div
-                    id="collapseTwo"
-                    class="collapse show"
-                    aria-labelledby="headingTwo"
-                    data-parent="#accordionExample"
-                  >
-                    <div class="card-body">
-                      <p>Juara 1: Uang tunai Rp 7.000.000,-</p>
-                      <p>Juara 2: Uang tunai Rp 3.000.000,-</p>
-                      <p>Juara 3: Uang tunai Rp 2.000.000,-</p>
-                      <p>Juara 4-5: Uang tunai Rp 1.500.000,-</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End: Collapse Hadiah-->
+                  
 
                 <!-- Start: Collapse Pelaksanaan-->
                 <div class="card">
-                  <div class="card-header bg-secondary" id="headingThree">
+                  <div class="card-header bg-primary" id="headingThree">
                     <h2 class="mb-0">
                       <button
                         class="btn text-white collapsed text-justify"
@@ -263,13 +280,13 @@
                     <div class="card-body">
                       <p><strong>PENGUMUMAN :</strong></p>
                       <p class="text-justify text-danger">
-                        Penutupan Pendaftaran tanggal 30 Maret 2021 Pengumuman
+                        <strong>Pembukaan Pendaftaran tanggal 30 Maret 2021 - 30 April 2021</strong> 
                       </p>
                       <p class="text-justify text-danger">
-                        pemenang akan dikabarkan kepada peserta pada 12 Mei 2021
+                      <strong>Pengumuman pemenang akan dikabarkan kepada peserta pada 26 Juni 2021</strong>
                       </p>
                       <p class="text-justify text-danger">
-                        Penyerahan Hadiah 15 Mei 2021
+                        <strong>Penyerahan Hadiah 28 Juni 2021</strong>
                       </p>
                       <p>
                         <strong>
@@ -338,7 +355,7 @@
 
                 <!-- Start: Collapse Syarat dan Ketentuan-->
                 <div class="card">
-                  <div class="card-header bg-primary" id="headingFour">
+                  <div class="card-header bg-secondary" id="headingFour">
                     <h2 class="mb-0">
                       <button
                         class="btn text-white collapsed text-justify"
@@ -503,7 +520,7 @@
                 </div>
 
                 <div class="card">
-                  <div class="card-header bg-secondary" id="headingFive">
+                  <div class="card-header bg-primary" id="headingFive">
                     <h2 class="mb-0">
                       <button
                         class="btn collapsed text-white text-justify"
@@ -593,15 +610,6 @@
                       </p>
                       <p class="text-justify">
                         Daftar pemenang bisa dilihat di halaman pemenang kontes.
-                      </p>
-                      <p class="text-justify">
-                        Para Pemenang dari Juara 1 - 5 yang terpilih WAJIB
-                        memberikan video testimoni (berdurasi minimum 30 detik)
-                        untuk KontesSEO.com
-                      </p>
-                      <p class="text-justify">
-                        Pembagian hadiah akan diberikan setelah pemenang Lomba
-                        mengirimkan video testimoni.
                       </p>
                       <p>Pemenang akan dihubungi via HP dan Email</p>
                     </div>
