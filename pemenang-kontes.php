@@ -12,7 +12,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index.php">
         <img src="images/paus gudangku.png" alt="" height="45px" />
       </a>
       <button
@@ -34,7 +34,7 @@
           <li class="nav-item">
             <a
               class="nav-link text-white btn btn-danger"
-              href="pendaftaran-kontes.html"
+              href="pendaftaran-kontes.php"
               >PENDAFTARAN KONTES</a
             >
           </li>
@@ -52,12 +52,12 @@
     </header>
 
     <div class="container">
-      <a href="index.html" class="btn btn-secondary">Detail Kontes</a>
-      <a href="peserta-kontes.html" class="btn btn-info">Peserta Kontes</a>
-      <a href="pendaftaran-kontes.html" class="btn btn-danger"
+      <a href="index.php" class="btn btn-secondary">Detail Kontes</a>
+      <a href="peserta-kontes.php" class="btn btn-info">Peserta Kontes</a>
+      <a href="pendaftaran-kontes.php" class="btn btn-danger"
         >Pendaftaran Kontes</a
       >
-      <a href="pemenang-kontes.html" class="btn btn-success">Pemenang Kontes</a>
+      <a href="pemenang-kontes.php" class="btn btn-success">Pemenang Kontes</a>
 
       <h3 class="text-center text-danger mt-3">
         <strong>Pemenang akan diumumkan pada tanggal 12 Mei 2021</strong>

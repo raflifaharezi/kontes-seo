@@ -1,3 +1,4 @@
+<?php include("koneksi.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,7 +13,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index.php">
         <img src="images/paus gudangku.png" alt="" height="45px" />
       </a>
       <button
@@ -30,15 +31,6 @@
         class="collapse navbar-collapse dd-flex justify-content-center"
         id="navbarNav"
       >
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a
-              class="nav-link text-white btn btn-danger"
-              href="pendaftaran-kontes.html"
-              >PENDAFTARAN KONTES</a
-            >
-          </li>
-        </ul>
       </div>
     </nav>
 
@@ -51,13 +43,25 @@
       </div>
     </header>
 
-    <div class="container mt-3">
-      <a href="index.html" class="btn btn-secondary">Detail Kontes</a>
-      <a href="peserta-kontes.html" class="btn btn-info">Peserta Kontes</a>
-      <a href="pendaftaran-kontes.html" class="btn btn-danger"
+    <div class="container-fluid mt-3">
+      <a href="index.php" class="btn btn-secondary">Detail Kontes</a>
+      <a href="peserta-kontes.php" class="btn btn-info">Peserta Kontes</a>
+      <a href="pendaftaran-kontes.php" class="btn btn-danger"
         >Pendaftaran Kontes</a
       >
       <a href="pemenang-kontes.html" class="btn btn-success">Pemenang Kontes</a>
+
+    <?php if(isset($_GET['status'])): ?>
+      <p>
+          <?php
+              if($_GET['status'] == 'sukses'){
+                  echo "Pendaftaran siswa baru berhasil!";
+              } else {
+                  echo "Pendaftaran gagal!";
+              }
+          ?>
+      </p>
+    <?php endif; ?>
 
       <div class="orders mt-3">
         <div class="row">
@@ -69,32 +73,38 @@
               <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
+                    <th scope="col">ID</th>
                     <th scope="col">Nama</th>
-                    <th scope="col">URL</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">No Telephone</th>
+                    <th scope="col">Alamat</th>
+                    <th scope="col">Kota / Kab</th>
+                    <th scope="col">Provinsi</th>
+                    <th scope="col">Url Website</th>
+                    <th scope="col">Url Facebook</th>
+                    <th scope="col">Url Instagram</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Larry the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td>Larry the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
+                  <?php 
+                    $sql = "SELECT * FROM users";
+                    $query = mysqli_query($koneksi, $sql);
+
+                    while($user = mysqli_fetch_array($query)){
+                      echo "<tr>";
+                      echo "<td>".$user['id']."</td>";
+                      echo "<td>".$user['name']."</td>";
+                      echo "<td>".$user['email']."</td>";
+                      echo "<td>".$user['no_telephone']."</td>";
+                      echo "<td>".$user['address']."</td>";
+                      echo "<td>".$user['city']."</td>";
+                      echo "<td>".$user['province']."</td>";
+                      echo "<td ><a href=".$user['url_website'].">" .$user['url_website']."</a></td>";
+                      echo "<td ><a href=".$user['url_website'].">" .$user['url_facebook']."</a></td>";
+                      echo "<td ><a href=".$user['url_website'].">" .$user['url_instagram']."</a></td>";
+                      echo "</tr>";
+                  }
+                  ?>
                 </tbody>
               </table>
             </div>
@@ -104,7 +114,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="mt-5">
+    <footer class="mt-5 fixed-bottom">
       <div class="container-fluid bg-dark">
         <div class="row p-3">
           <div class="col-12">
