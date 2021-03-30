@@ -21,10 +21,8 @@ if(isset($_POST['daftar']))
     if( $query ) {
         header('Location: peserta-kontes.php?status=sukses');
     } else {
-        // kalau gagal alihkan ke halaman indek.php dengan status=gagal
         header('Location: peserta-kontes.php?status=gagal');
     }
-    // var_dump($no_telephone);
 }
 
 ?>

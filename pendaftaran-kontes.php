@@ -59,6 +59,8 @@
         >Pendaftaran Kontes</a
       >
       <a href="pemenang-kontes.php" class="btn btn-success">Pemenang Kontes</a>
+      <a href="banner-gudangku.php" class="btn btn-warning text-white">Banner Gudangku</a>
+
 
       <div class="card mt-3">
         <div class="card-header">

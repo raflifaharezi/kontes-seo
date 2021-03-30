@@ -36,7 +36,7 @@
             <a
               class="nav-link text-white btn btn-success"
               href="pendaftaran-kontes.php"
-              >PENDAFTARAN KONTES</a
+              >BANNER GUDANGKU</a
             >
           </li>
         </ul>
@@ -46,23 +46,42 @@
     <header class="pt-5 border-bottom bg-light">
       <div class="container pt-md-1 pb-md-1">
         <h1 class="bd-title mt-4 font-weight-bold">
-          <i class="fa fa-book-open" aria-hidden="true"></i> PEMENANG KONTES
+          <i class="fa fa-book-open" aria-hidden="true"></i> BANNER GUDANGKU
         </h1>
-        <p class="bd-lead">Pemenang Kontes SEO Gudangku.</p>
+        <p class="bd-lead">Kontes SEO Gudangku Wajib Memasang Banner di websitenya</p>
       </div>
     </header>
 
     <div class="container">
       <a href="index.php" class="btn btn-secondary">Detail Kontes</a>
       <a href="peserta-kontes.php" class="btn btn-info">Peserta Kontes</a>
-      <a href="pendaftaran-kontes.php" class="btn btn-danger">Pendaftaran Kontes</a>
+      <a href="pendaftaran-kontes.php" class="btn btn-danger"
+        >Pendaftaran Kontes</a
+      >
       <a href="pemenang-kontes.php" class="btn btn-success">Pemenang Kontes</a>
-      <a href="banner-gudangku.php" class="btn btn-warning text-white">Banner Gudangku</a> 
+      <a href="banner-gudangku.php" class="btn btn-warning text-white">Banner Gudangku</a>
 
 
-      <h3 class="text-center text-danger mt-3">
-        <strong>Pemenang akan diumumkan pada tanggal 26 Juni 2021</strong>
-      </h3>
+    </div>
+
+    <div class="container mt-4">
+        <div>
+            <p><strong>Ukuran 480 X 60 Pixel</strong> </p>
+            <img    src="images/banner-gudangku.jpg" 
+                    class="img-fluid" 
+                    alt="Responsive image"
+                    height="60px"
+                    width="480px">
+        </div>
+
+        <div class="mt-2">
+            <p><strong>Ukuran 300 X 250 Pixel</strong> </p>
+            <img    src="images/banner-gudangku2.jpg" 
+                    class="img-fluid"
+                    alt="Responsive image"
+                    height="300px"
+                    width="250px">
+        </div>
     </div>
 
     <!-- Footer -->

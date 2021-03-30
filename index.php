@@ -29,7 +29,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse d-flex justify-content-end"
+        class="collapse navbar-collapse dd-flex justify-content-end"
         id="navbarNav"
       >
         <ul class="navbar-nav">
@@ -46,6 +46,7 @@
     <!-- END : Navbar-->
 
     <!-- START : Carausel -->
+    <header class="pt-5">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -53,22 +54,19 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/slider_image.png" class="w-100" />
+          <img src="images/banner-seo.jpg" class="w-100" />
           <div class="carousel-caption d-none d-md-block">
           <a href="pendaftaran-kontes.php" class="btn btn-success"
           >DAFTAR SEGERA
           </a>
-          <h4 class="mt-3">Menangkan Hadiahnya Sampai dengan 15 Juta Rupiah</h4>
-      
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/slider_image.png" class="w-100" />
+          <img src="images/banner-seo.jpg" class="w-100" />
           <div class="carousel-caption d-none d-md-block">
           <a href="pendaftaran-kontes.php" class="btn btn-success"
           >DAFTAR SEGERA
           </a>
-          <h4 class="mt-3">Menangkan Hadiahnya Sampai dengan 15 Juta Rupiah</h4>
           </div>
         </div>
       </div>
@@ -91,6 +89,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    </header>
     <!-- END : Carousel-->
 
     <div class="text-center mt-3 mb-4">
@@ -105,6 +104,8 @@
         >Pendaftaran Kontes</a
       >
       <a href="pemenang-kontes.php" class="btn btn-success">Pemenang Kontes</a>
+      <a href="banner-gudangku.php" class="btn btn-warning text-white">Banner Gudangku</a>
+
 
       <div class="col-12 mt-3">
         <div class="row">
@@ -440,7 +441,7 @@
                       <p>Instagram :</p>
                       <p>
                         <a
-                          href="https://www.instagram.com/gudangkuid/"
+                          href="https://www.instagram.com/gudangku.indonesia/"
                           class="text-decoration-none"
                           >Gudangku</a
                         >
@@ -478,8 +479,18 @@
                         >
                         (pilih salah 1) :
                       </p>
-                      <p>Ukuran 480x60</p>
-                      <p>Ukuran 300x250</p>
+                      <p><strong>Ukuran 480x60</strong></p>
+                      <img    src="images/banner-gudangku.jpg" 
+                              class="img-fluid" 
+                              alt="Responsive image"
+                              height="60px"
+                              width="480px">
+                      <p><strong>Ukuran 300x250</strong></p>
+                      <img    src="images/banner-gudangku2.jpg" 
+                              class="img-fluid"
+                              alt="Responsive image"
+                              height="300px"
+                              width="250px">
                       <p class="text-justify">
                         Artikel atau postingan tidak boleh menyinggung SARA,
                         berbau pornografi dan melanggar undang undang yang

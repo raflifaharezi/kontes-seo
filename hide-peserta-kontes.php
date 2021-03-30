@@ -60,6 +60,8 @@
         >Pendaftaran Kontes</a
       >
       <a href="pemenang-kontes.html" class="btn btn-success">Pemenang Kontes</a>
+      <a href="banner-gudangku.php" class="btn btn-warning text-white">Banner Gudangku</a>
+
 
     <?php if(isset($_GET['status'])): ?>
       <p>
