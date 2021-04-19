@@ -52,8 +52,13 @@
     <!-- END : Navbar-->
 
     <!-- START : Carausel -->
+<<<<<<< HEAD
     <header class="header-carousel">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+=======
+    <header style="margin-top:70px;">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+>>>>>>> 88b0d948d26756e0ba8a99e83be7a730e5005a84
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
