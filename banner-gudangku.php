@@ -53,13 +53,13 @@
     </header>
 
     <div class="container">
-      <a href="index.php" class="btn btn-secondary">Detail Kontes</a>
-      <a href="peserta-kontes.php" class="btn btn-info">Peserta Kontes</a>
-      <a href="pendaftaran-kontes.php" class="btn btn-danger"
+      <a href="index.php" class="btn btn-secondary mt-3 mt-md-3 mt-lg-0">Detail Kontes</a>
+      <a href="peserta-kontes.php" class="btn btn-info mt-3 mt-md-3 mt-lg-0">Peserta Kontes</a>
+      <a href="pendaftaran-kontes.php" class="btn btn-danger mt-3 mt-md-3 mt-lg-0"
         >Pendaftaran Kontes</a
       >
-      <a href="pemenang-kontes.php" class="btn btn-success">Pemenang Kontes</a>
-      <a href="banner-gudangku.php" class="btn btn-warning text-white">Banner Gudangku</a>
+      <a href="pemenang-kontes.php" class="btn btn-success mt-3 mt-md-3 mt-lg-0">Pemenang Kontes</a>
+      <a href="banner-gudangku.php" class="btn btn-warning text-white mt-3 mt-md-3 mt-lg-0">Banner Gudangku</a>
 
 
     </div>

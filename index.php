@@ -10,6 +10,12 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+
+    <style>
+      .header-carousel{
+        margin-top:70px;
+      }
+    </style>
   </head>
   <body>
     <!-- START: NAVBAR-->
@@ -46,7 +52,7 @@
     <!-- END : Navbar-->
 
     <!-- START : Carausel -->
-    <header class="pt-5">
+    <header class="header-carousel">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -54,7 +60,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/banner-seo.jpg" class="w-100" />
+          <img src="images/SEO kontes 2.jpg" class="w-100" />
           <div class="carousel-caption d-none d-md-block">
           <a href="pendaftaran-kontes.php" class="btn btn-success"
           >DAFTAR SEGERA
@@ -62,7 +68,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/banner-seo.jpg" class="w-100" />
+          <img src="images/SEO kontes 2.jpg" class="w-100" />
           <div class="carousel-caption d-none d-md-block">
           <a href="pendaftaran-kontes.php" class="btn btn-success"
           >DAFTAR SEGERA
@@ -76,7 +82,7 @@
         role="button"
         data-slide="prev"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a
@@ -85,7 +91,7 @@
         role="button"
         data-slide="next"
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
@@ -98,13 +104,13 @@
 
     <!-- START : Collapse-->
     <div class="container mt-3">
-      <a href="index.php" class="btn btn-secondary">Detail Kontes</a>
-      <a href="peserta-kontes.php" class="btn btn-info">Peserta Kontes</a>
-      <a href="pendaftaran-kontes.php" class="btn btn-danger"
+      <a href="index.php" class="btn btn-secondary mt-3 mt-md-3 mt-lg-0">Detail Kontes</a>
+      <a href="peserta-kontes.php" class="btn btn-info mt-3 mt-md-3 mt-lg-0">Peserta Kontes</a>
+      <a href="pendaftaran-kontes.php" class="btn btn-danger mt-3 mt-md-3 mt-lg-0"
         >Pendaftaran Kontes</a
       >
-      <a href="pemenang-kontes.php" class="btn btn-success">Pemenang Kontes</a>
-      <a href="banner-gudangku.php" class="btn btn-warning text-white">Banner Gudangku</a>
+      <a href="pemenang-kontes.php" class="btn btn-success mt-3 mt-md-3 mt-lg-0">Pemenang Kontes</a>
+      <a href="banner-gudangku.php" class="btn btn-warning text-white mt-3 mt-md-3 mt-lg-0">Banner Gudangku</a>
 
 
       <div class="col-12 mt-3">
@@ -281,13 +287,13 @@
                     <div class="card-body">
                       <p><strong>PENGUMUMAN :</strong></p>
                       <p class="text-justify text-danger">
-                        <strong>Pembukaan Pendaftaran tanggal 30 Maret 2021 - 30 April 2021</strong> 
+                        <strong>Pembukaan Pendaftaran tanggal 15 April 2021 - 15 Mei 2021</strong> 
                       </p>
                       <p class="text-justify text-danger">
-                      <strong>Pengumuman pemenang akan dikabarkan kepada peserta pada 26 Juni 2021</strong>
+                      <strong>Pengumuman pemenang akan dikabarkan kepada peserta pada 15 Agustus 2021</strong>
                       </p>
                       <p class="text-justify text-danger">
-                        <strong>Penyerahan Hadiah 28 Juni 2021</strong>
+                        <strong>Penyerahan Hadiah 20 Agustus 2021</strong>
                       </p>
                       <p>
                         <strong>
@@ -330,13 +336,13 @@
                       </p>
                       <p class="text-justify">
                         Apabila pada hari terakhir Lomba jumlah peserta di
-                        Google masih dibawah 50, maka pelaksanaan Lomba akan
+                        Google masih dibawah 10, maka pelaksanaan Lomba akan
                         diperpanjang selama 30 hari.
                       </p>
                       <p class="text-justify">
                         Peraturan diatas akan selalu berlaku pada bulan
                         berikutnya jika jumlah peserta dan artikel masih dibawah
-                        50.
+                        10.
                       </p>
                       <p class="text-justify">
                         Panitia Lomba Seo gudangku.id tidak bertanggung jawab
