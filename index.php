@@ -60,7 +60,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/SEO kontes 2.jpg" class="w-100" />
+          <img src="images/SEO-kontes-2.jpg" class="w-100" />
           <div class="carousel-caption d-none d-md-block">
           <a href="pendaftaran-kontes.php" class="btn btn-success"
           >DAFTAR SEGERA
@@ -68,7 +68,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/SEO kontes 2.jpg" class="w-100" />
+          <img src="images/SEO-kontes-2.jpg" class="w-100" />
           <div class="carousel-caption d-none d-md-block">
           <a href="pendaftaran-kontes.php" class="btn btn-success"
           >DAFTAR SEGERA
